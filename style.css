@@ -1,0 +1,41 @@
+/*
+CSS SYNTAX: ;
+selector {
+	property: value;
+}
+*/
+
+/*Universal Selector*/
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Type Selector*/
+h1, p {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+/*ID Selector*/
+#profile {
+	height: 250px;
+	width: 250px;
+
+	/*Make profile picture round*/
+	border-radius: 50%;
+}
+
+body {
+	background-color: #152238;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23152238' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2316233a' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2317253c' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%2318263e' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23192740' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%231a2943' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%231b2a45' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%231c2b47' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%231d2d49' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%231e2e4b' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23202f4d' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23213150' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23223252' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23233354' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23243556' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23263659' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2327385b' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%2328395D' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
